@@ -1,5 +1,5 @@
 // app/sandbox/page.tsx
-import Button from "@/components/Button";
+import Button from "@/components/button";
 import Card from "@/components/Card";
 
 export default function Sandbox() {
