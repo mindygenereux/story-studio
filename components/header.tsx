@@ -4,7 +4,7 @@ import { useState, useEffect } from "react";
 import { useRouter } from "next/navigation";
 import Link from "next/link";
 import { supabase } from "@/lib/supabaseClient";
-import Button from "@/components/button";
+import Button from "./button";
 
 export default function Header() {
   const [user, setUser] = useState<any>(null);
